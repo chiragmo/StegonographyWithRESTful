@@ -1,0 +1,28 @@
+ 
+<html>
+<header><title>Hide page</title></header>
+
+<body>
+ <h1> List of Images<h1>
+ <div>
+ #toReplace#
+ </div>
+ <div class='forms'>
+ <form method="post" encType="multipart/form-data" action="/hide/success" >
+ Image Name (From above ONLY): <input type="text" name="firstname"><br/>
+ <p>Hide Message From ?:  
+  <select name="drop">
+  <option value="opt">select</option>
+  <option value="opt1">text box</option>
+  <option value="opt2">upload</option>
+</select>  <br/><br/>
+</p>
+ Type in the contents of the message: 
+ <input type="text" name="hideMessage1"><br/><br/>
+Select a file containing the message: 
+ <input type="file" name="hideMessage2"> <br/><br/>
+ <input type="submit" value="Submit"><div class="error"></div> 
+ </form>
+ </div>
+</body>
+</html>
